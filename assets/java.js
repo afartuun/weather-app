@@ -26,14 +26,13 @@ $('#searchBtn').click(function(event) {
 });
 
 // $('.btn-secondary').click(fucntion() {
-//     .preventDefault
+//     .preventDefault()
 // }
 // )
 function placeWeather(city) {
     var queryUrl= 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&appid=" + apiKey + "&units=imperial";
-    fetch (queryUrl).then(response => response.json().then(data =>{
-        var 
-    }
+    fetch (queryUrl).then(response => response.json()).then(data =>) ;
+    
 
 }
 
