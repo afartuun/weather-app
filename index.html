@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Current Weather</title>
+    <h1> Weather Dashboard</h1>
+</head>
+<body>
+<aside class="col-md-3">
+        <h2 class="search"> Search for a City:</h2>
+            <input type="text" id="searchCity" class="col-md">
+
+            <button type="button" id ="searchBtn" class="col-md btn btn-primary mt-3">Search</button>
+            <div class="line"></div>
+            <section id="buttons" class="">
+                    <button type="button" id="prev-00" class=" col-md btn btn-secondary">Prior City</button>
+                    <button type="button" id="prev-01" class=" col-md btn btn-secondary mt-2">Prior City</button>
+                    <button type="button" id="prev-02" class="col-md btn btn-secondary mt-2">Prior City</button>
+                    <button type="button" id="prev-03" class="col-md btn btn-secondary mt-2">Prior City</button>
+                    <button type="button" id="prev-04" class="col-md btn btn-secondary mt-2">Prior City</button>
+                    <button type="button" id="prev-05" class="col-md btn btn-secondary mt-2">Prior City</button>
+                    <button type="button" id="prev-06" class="col-md btn btn-secondary mt-2">Prior City</button>
+            </section>
+</aside>
+        <main class="col-md-9">
+            <div id="current-city">
+                <h2 class="city-date">City Date:</h2>
+                <img src="" alt="">
+                <p class="temp">Temp:</p>
+                <p class="wind">Wind:</p>
+                <p class="humidity">Humidity:</p>
+                <p class="UV">UV Index:</p>
+            </div>
+            <div class="five-day">
+                <h3 class="forecast">5-Day Forecast:</h3>
+                <div class="row">
+                <div class="card col" id="sec-1">
+                    <h3>Date</h3>
+                    <img src="" alt="">
+                    <p class="temp">Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>
+                </div>
+                <div class="card col" id="sec-2">
+                    <h3>Date</h3>
+                    <img src="" alt="">
+                    <p class="temp">Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>              
+                </div>
+                <div class="card col" id="sec-3">
+                    <h3>Date</h3>
+                    <img src="" alt="">
+                    <p class="temp">Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>              
+                </div>
+                <div class="card col" id="sec-4">
+                    <h3>Date</h3>
+                    <img src="" alt="">
+                    <p class="temp">Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>              
+                </div>
+                <div class="card col" id="sec-5">
+                    <h3>Date</h3>
+                    <img src="" alt="">
+                    <p class="temp">Temp: </p>
+                    <p class="wind">Wind: </p>
+                    <p class="humidity">Humidity: </p>              
+                </div>
+            </div>
+        </main>
+
+    </div>
+</div>
+
+ 
+
+
+    
+
+
+
+
+
+    <script src="https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={API key}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/java.js"></script>
+
+</body>
+</html>

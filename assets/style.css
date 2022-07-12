@@ -1,0 +1,38 @@
+h1 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(65, 65, 211), rgb(50, 17, 123) );
+    font-weight: bold;
+}
+
+.search {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgb(0, 0, 0);
+    
+}
+
+.five-day .forecast {
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.city-date {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* #current-city {
+    display: flex;
+    justify-content: center;
+} */
