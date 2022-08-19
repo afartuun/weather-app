@@ -235,7 +235,7 @@ function createCityList(citySearchList) {
     $("#current-weather").hide();
     $("#forecast-weather").hide();
   
-    $("#search-button").on("click", function(event) {
+    $("#searchBtn").on("click", function(event) {
       event.preventDefault();
       var city = $("#city-input")
         .val()
