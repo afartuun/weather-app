@@ -5,4 +5,4 @@
 
 ## Screenshot
 ---
-![Displays screenshot page](screenshot.jpg)
+![Displays screenshot page](screenshot.png)
